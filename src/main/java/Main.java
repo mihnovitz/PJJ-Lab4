@@ -10,6 +10,7 @@ public class Main {
         Rectangle rectangle2 = new Rectangle(6, 7, new Color(0, 255, 47, 255));
         Rectangle rectangle3 = new Rectangle(7, 13, new Color(0, 255, 78, 255));
 
+
         // Save shapes
         System.out.println("Saving shapes...");
         ShapeDao.save(triangle);
